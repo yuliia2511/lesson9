@@ -72,13 +72,16 @@ tr:nth-child(4) {
     accent-color: rgb(255, 255, 255);
 }
 
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
 .small-text {
     font-size: 22px;
 }
 
 td:hover {
     border-color: rgb(54, 120, 242);
-    text-decoration: line-through;
 }
 
     /*Footer*/
