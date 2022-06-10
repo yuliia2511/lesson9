@@ -31,11 +31,10 @@ main {
 
 #table-info {
     width: 50%;
-    border: 5px solid transparent;
-    border-spacing: 0.1;
    margin-left: 350px;
    margin-right: 20px;
-   margin-bottom: 40px; 
+   margin-bottom: 30px; 
+   border-spacing: 0.1;
 }
 
 td {
@@ -59,7 +58,7 @@ tr:nth-of-type(2n+1) {
 }
 
 tr:nth-child(4) {
-    background: rgba(98, 94, 119, 1);
+    background: rgba(98, 94, 119, 1);   
 };
 
 .small-text {
