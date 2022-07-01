@@ -1,0 +1,98 @@
+
+body {
+    text-align: center;
+    width: 100%;
+}
+
+/*Header*/
+
+header, [type="button"]  {
+    background-color: #4A4F56;
+    color: #FF8984;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    padding-top: 18px;
+}
+
+p {
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+/*Main*/
+
+main {
+    background-color:#3B3F45;
+    margin: 0;
+}
+
+#table-info {
+    width: 50%;
+   margin-left: 371px;
+   margin-right: 20px;
+   margin-bottom: 30px; 
+   border-spacing: 0.1;
+}
+
+td {
+    border: 5px solid transparent;
+    font-size: 32px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition: all .1s ease-in;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-of-type(2n+2) {
+    background: rgba(122, 117, 147, 1);
+}
+
+tr:nth-of-type(2n+1) {
+    background: rgba(136, 131, 158, 1)
+}
+
+tr:nth-child(4) {
+    background: rgba(98, 94, 119, 1);   
+};
+
+.small-text {
+    font-size: 22px;
+}
+
+ input[type=checkbox] {
+    height: 30px ;
+    width: 30px  ;
+    accent-color: rgb(255, 255, 255);
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+.small-text {
+    font-size: 22px;
+}
+
+td:hover {
+    border-color: rgb(54, 120, 242);
+}
+
+    /*Footer*/
+
+footer {
+    margin: 0;
+}
+
+[type="button"] {
+    font-size: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 50%;
+    margin: 0;
+}
